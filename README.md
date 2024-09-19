@@ -4,7 +4,7 @@
 
 ## 技术栈
 
-![](.\DocImgRes\技术栈.png)
+![](./DocImgRes/技术栈.png)
 
 ## 功能性需求分析
 
@@ -12,15 +12,15 @@
 
 ## 总体用例图
 
-![](C:\Users\lenovo\Desktop\数据库课设\DB-Fitness\DocImgRes\总用例图.png)
+![](./DocImgRes/总用例图.png)
 
 ## 总体ER图设计
 
-![](C:\Users\lenovo\Desktop\数据库课设\DB-Fitness\DocImgRes\整体ER图.png)
+![](./DocImgRes/整体ER图.png)
 
 ## 功能矩阵图
 
-![](.\DocImgRes\系统功能矩阵图.png)
+![](./DocImgRes/系统功能矩阵图.png)
 
 ## 项目目录结构说明
 
@@ -105,4 +105,4 @@
 
    页面较多，服务器貌似注销了，本地截图记录不全，页面细节暂时无法完全展示了，有机会找到一些记录就再做补充。
 
-![](C:\Users\lenovo\Desktop\数据库课设\DB-Fitness\DocImgRes\用户注册.png)
+![](./DocImgRes/用户注册.png)
