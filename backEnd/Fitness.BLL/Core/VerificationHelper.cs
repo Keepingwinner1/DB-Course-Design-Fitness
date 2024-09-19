@@ -46,9 +46,9 @@ namespace Fitness.BLL.Core
 
         public void SendVerificationEmail(string email, string code)
         {
-            var fromAddress = new MailAddress("2116302797@qq.com", "FitFitFromCHL");
+            var fromAddress = new MailAddress("", "FitFitFromCHL");
             var toAddress = new MailAddress(email);
-            const string fromPassword = "spiusyacrwvycjbb";
+            const string fromPassword = "";
             const string subject = "FitFit注册验证码";
             string body = $"感谢你注册FitFit,你的验证码是 {code}";
 
