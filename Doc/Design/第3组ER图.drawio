@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2024-05-16T13:20:36.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="r8gBqVkWu1c-qI-Jqjx4" version="24.4.0" type="device">
+  <diagram name="第 1 页" id="iI1LpHMIFWrkIWX99k92">
+    <mxGraphModel dx="1526" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-1" value="用户" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-2" value="获得" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-3" value="成就" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-30" value="&lt;u&gt;成就id&lt;/u&gt;&lt;div&gt;名称&lt;/div&gt;&lt;div&gt;描述&lt;/div&gt;&lt;div&gt;达成条件&lt;/div&gt;&lt;div&gt;达成条件描述&lt;/div&gt;&lt;div&gt;创建时间&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="k9xI1la4GZYIBO2oAjRl-3">
+          <mxGeometry x="10" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-2" target="k9xI1la4GZYIBO2oAjRl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="540" as="sourcePoint" />
+            <mxPoint x="530" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-3" target="k9xI1la4GZYIBO2oAjRl-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="540" as="sourcePoint" />
+            <mxPoint x="530" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-13" value="体质数据" style="swimlane;whiteSpace=wrap;html=1;startSize=23;shadow=0;glass=0;rounded=0;treeMoving=0;autosize=0;noLabel=0;portConstraintRotation=0;snapToPoint=0;fixDash=0;metaEdit=0;backgroundOutline=0;swimlaneLine=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="230" width="120" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-32" value="&lt;div&gt;&lt;u&gt;体质表标识&lt;/u&gt;&lt;/div&gt;&lt;div&gt;创建时间&lt;/div&gt;&lt;div&gt;身高&lt;/div&gt;&lt;div&gt;体重&lt;/div&gt;&lt;div&gt;BMI&lt;/div&gt;&lt;div&gt;体脂率&lt;/div&gt;&lt;div&gt;是否为最新体质表&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="k9xI1la4GZYIBO2oAjRl-13">
+          <mxGeometry x="10" y="35" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-15" value="健身计划" style="swimlane;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="610" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-43" value="&lt;u&gt;计划表标识&lt;/u&gt;&lt;div&gt;创建时间&lt;/div&gt;&lt;div&gt;计划类型&lt;/div&gt;&lt;div&gt;计划时间长度&lt;/div&gt;&lt;div&gt;是否为最新计划表&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;训练项目标识&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;项目名称&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;训练时间&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;动作数量&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;动作标识&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;动作名称&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;动作文字说明&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;gif演示&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;训练所需器材&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;训练部位&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="k9xI1la4GZYIBO2oAjRl-15">
+          <mxGeometry x="30" y="20" width="150" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-38" target="k9xI1la4GZYIBO2oAjRl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="300" as="sourcePoint" />
+            <mxPoint x="590" y="232.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="340" />
+              <mxPoint x="670" y="360" />
+              <mxPoint x="670" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-38" target="k9xI1la4GZYIBO2oAjRl-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="300" as="sourcePoint" />
+            <mxPoint x="530" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-42" target="k9xI1la4GZYIBO2oAjRl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="489.9999999999998" as="sourcePoint" />
+            <mxPoint x="530" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;width=2.9411764705882355;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-15" target="k9xI1la4GZYIBO2oAjRl-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="540" as="sourcePoint" />
+            <mxPoint x="520" y="569.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-39" target="k9xI1la4GZYIBO2oAjRl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="529.9999999999998" as="sourcePoint" />
+            <mxPoint x="650" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="480" />
+              <mxPoint x="670" y="460" />
+              <mxPoint x="670" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-27" value="体测数据" style="swimlane;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="437" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-41" value="&lt;u&gt;体测表标识&lt;/u&gt;&lt;div&gt;创建时间&lt;/div&gt;&lt;div&gt;俯卧撑次数&lt;/div&gt;&lt;div&gt;深蹲次数&lt;/div&gt;&lt;div&gt;仰卧起坐次数&lt;/div&gt;&lt;div&gt;引体向上次数&lt;/div&gt;&lt;div&gt;一千米时间&lt;/div&gt;&lt;div&gt;是否为最新体测表&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="k9xI1la4GZYIBO2oAjRl-27">
+          <mxGeometry x="20" y="28" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-28" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-39" target="k9xI1la4GZYIBO2oAjRl-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="529.9999999999998" as="sourcePoint" />
+            <mxPoint x="830" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9xI1la4GZYIBO2oAjRl-2" target="k9xI1la4GZYIBO2oAjRl-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="360" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-37" value="获得时间&lt;div&gt;成就进度&lt;/div&gt;&lt;div&gt;是否达成&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-38" value="填写" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-39" value="填写" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9xI1la4GZYIBO2oAjRl-42" value="系统生成" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
